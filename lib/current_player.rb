@@ -13,7 +13,7 @@ def current_player(board)
   step = turn_count(board)
   if step % 2 == 0
     return "X"
-  elsif step == 0 || step % 2 == 1
+  else
     return "O"
   end
 end
